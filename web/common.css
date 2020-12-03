@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+* {
+    font-family: Arial;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    font-style: oblique;
+}
+
+.fotoIberdrola {
+    display:block;
+    margin:auto;
+    width: 100%;
+}
+
+.navPrincipal {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+ nav a {
+    padding: 10px;
+ 
+    border-color:grey;
+    border-radius: 6px;
+    color: black;
+    background-color: lightgray;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+ }
+
+ nav a:hover {
+    background-color:gray;
+ }
+ 
+ footer {
+    position: absolute;
+    bottom: -40cm;
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+
+

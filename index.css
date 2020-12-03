@@ -1,0 +1,39 @@
+
+article {
+    padding: 35px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+    height: 12.5cm;
+    text-align: center;
+
+}
+
+aside {
+    padding: 35px;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+    height: 12.5cm;
+    text-align: center;
+}
+
+.beti {
+    width: 15.25cm;
+}
+
+aside p {
+    text-align: justify;
+    width: 15.25cm;
+    letter-spacing: 1px;
+}
+
+.navArticle {
+    margin: 100px;
+}
+
+
+
+
+
+

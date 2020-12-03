@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eric">
+        <meta name="keywords" content="Futbol Femenino Betis">
+        <meta name="description" content="Practica M4"> 
+        <link rel="stylesheet" type="text/css" href="common.css"/>
+        <link rel="stylesheet" type="text/css" href="formulario.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Liga Iberdrola</h1>
+            <img class="fotoIberdrola" src="../img/liga.png" alt="Foto de la liga">
+        </header>
+            <nav class="navPrincipal">
+                <a href="../index.html">Index</a>
+                <a href="classif.html">Classif</a>
+                <a href="resultats.html">Resultats</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="infogeneral.html">Info General</a>
+                <a href="planter.html">Planter</a>
+            </nav>
+            <main>
+                <form action="./validaquesta.php" method="POST">
+                    <p>
+                      <label for="email"><b>Email</b></label>
+                      <input id="email" type="text" placeholder="Introduce tu email" name="uname" required>
+                    </p>
+                    <p>
+                        <label for="nom"><b>Nom Complet</b></label>
+                        <input id="nom" type="text" placeholder="Introduce tu nombre complet" name="uname" required>
+                      </p>
+                    <p>
+                      <label for="inPuntuacion"><b>Puntuación</b></label>
+                      <input id="inPuntuacion" name="puntuacion" type="number" min="0" max="5" step="1" value="5" required>
+                    </p>
+                    <p>
+                        <label for="valoracionGlobal"><b>Valoracion General</b></label>
+                        <select name="valoracionGlobal">
+                            <option value="Excelent">Excel·lent</option>
+                            <option value="Notable">Notable</option>
+                            <option value="Bona" selected>Bona</option>
+                            <option value="Regular">Regular</option>
+                            <option value="Dolenta">Dolenta</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="color"><b>Color del Tema</b></label>
+                        <input id="color" name="color" type="color" value="#FFFF00">
+                    </p>
+                    <p>
+                        <label for="obs"><b>Observaciones</b></label>
+                        <input type="text" id="idObs" name="obs" placeholder="Introduce tu opinion" autofocus size="50" maxlength="250">
+                    </p>
+                    <p>
+                        <input value="Limpia el Formulario" type="reset">
+                        <button type="submit">Enviar el Formulario</button>
+                    </p>
+                  </form>
+            </main> 
+            <footer>
+                <p>© 2020 LaLiga</p>
+                <a href="https://www.facebook.com/Primeraiberdrola/" target="_blank"><img src="../img/facebook.png" alt="Facebook>" height="50" width="50"></a>
+                <a href="https://www.instagram.com/primeraiberdrola/?hl=es" target="_blank"><img src="../img/instagram.png" alt="instagram" height="50" width="50"></a>
+                <a href="https://twitter.com/PrimerIberdrola?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../img/twitter.png" alt="Twitter" height="50" width="50"></a>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,31 @@
+h2 {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.pieDeFoto {
+    font-style: italic;
+    color: lightgray;
+}
+
+.text {
+    text-align: justify;
+    letter-spacing: 1px;
+} 
+
+.Pregunta {
+    text-align: center;
+}
+
+.foto2 {
+    height: 7cm;
+}
+
+a {
+    text-decoration: none;  
+}
